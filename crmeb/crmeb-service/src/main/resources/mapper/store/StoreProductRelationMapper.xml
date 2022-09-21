@@ -7,6 +7,18 @@
         FROM eb_store_product_relation r
         INNER JOIN eb_store_product p ON r.product_id = p.id And p.is_show = 1
         where r.`type` = 'collect'
+        <if test="uid != ''">
+            and r.uid = #{uid}
+        </if>
+        ORDER BY r.id DESC
+    </select>
+
+        <select id="getUserListByType" resultType="com.zbkj.common.response.UserRelationResponse" parameterType="java.lang.Integer">
+--         SELECT r.id,r.product_id as productId,r.create_time as createTime,p.store_name as storeName,p.image,p.price
+        SELECT r.id,r.product_id,r.create_time,p.store_name,p.image,p.price
+        FROM eb_store_product_relation r
+        INNER JOIN eb_store_product p ON r.product_id = p.id And p.is_show = 1
+        where r.`type` = 'collect'
         <if test="uid != '' and type != null">
             and r.uid = #{uid}
         </if>

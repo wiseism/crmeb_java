@@ -1,0 +1,56 @@
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 17:22:24.648",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 17:27:37.848",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 17:32:44.998",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 17:34:47.461",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 17:35:59.105",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-16 17:42:14.981",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2022-09-17 09:05:56.064",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    

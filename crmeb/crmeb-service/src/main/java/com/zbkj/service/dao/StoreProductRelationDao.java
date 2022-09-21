@@ -3,6 +3,7 @@ package com.zbkj.service.dao;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.zbkj.common.model.product.StoreProductRelation;
 import com.zbkj.common.response.UserRelationResponse;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -24,5 +25,6 @@ public interface StoreProductRelationDao extends BaseMapper<StoreProductRelation
      * 用户收藏列表
      * @param uid 用户uid
      */
-    List<UserRelationResponse> getUserList(Integer uid);
+    List<UserRelationResponse> getUserListByType(@Param("uid") Integer uid,@Param("type") Integer type);
+    List<UserRelationResponse> getUserList(@Param("uid") Integer uid);
 }

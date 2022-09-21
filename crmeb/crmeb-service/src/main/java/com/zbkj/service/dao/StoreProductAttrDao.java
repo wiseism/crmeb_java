@@ -17,4 +17,5 @@ import com.zbkj.common.model.product.StoreProductAttr;
  */
 public interface StoreProductAttrDao extends BaseMapper<StoreProductAttr> {
 
+    public int updateByProductId(StoreProductAttr storeProductAttr);
 }

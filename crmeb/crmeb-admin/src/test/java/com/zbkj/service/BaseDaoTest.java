@@ -18,14 +18,16 @@ public abstract class BaseDaoTest {
     }
 
     protected void printf(Object o) {
+        if(o == null){
+            System.out.println("printf null");
+        }
         ObjectMapper mapper = new ObjectMapper();
 
         try {
             String s = mapper.writeValueAsString(o);
-
             System.out.println(s);
         }catch (JsonProcessingException e){
-
+            e.printStackTrace();
         }
     }
 }
